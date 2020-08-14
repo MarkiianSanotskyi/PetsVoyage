@@ -1,0 +1,110 @@
+ 	@media (min-width: 1200px){
+		
+		#intro-apps_holder #apps-desc.apps-text.trigger p{margin-top:-50px;}	}
+		
+	
+@media (max-width:1200px){
+	#section2 .intro {
+    
+    margin-right: 147px;
+}}
+@media (max-width:1300px){
+	.input-magazine-info-box{width:190px;}
+	}
+	
+	/*@media only screen and (max-width: 991px) and (min-width: 768px){
+			.box-left {
+
+   
+    margin: 0px 60px 0px 60px;
+}
+#section1 .intro{width:100%;margin-left:0px;text-align:center;}
+.intro p {
+    width: 100% !important;padding:0px 35px;
+   
+}
+			}*/
+ 
+  /* @media only screen and (max-width: 767px) and (min-width: 570px){
+	  #download_links {
+    bottom: 85px;
+}
+.sertificate{bottom:85px;}
+#section1 .intro,
+#section2 .intro{width:100%;margin-left:0px;text-align:center;}
+a.header-phone{width:22px;height:22px;overflow:hidden;}
+.intro p {
+    width: 100% !important;padding:0px 35px;
+   
+}
+	  }*/
+	/*  @media only screen and  (max-width: 570px){
+		  .sertificate {
+    bottom: 115px;
+    left: 50%;
+    margin-left: -125px;
+}
+#download_links {
+    bottom: 62px;
+    right: 50%;
+    margin-right: -103px;
+}
+.intro_text.wrap-letters{font-size:45px !important;}
+	#intro_slide-desc {
+    margin-top: 0px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'gagalinregular';
+}
+
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section h1 {
+  
+    font-size: 40px;
+		  }
+		  #sidenav_menu a{font-size:18px;}
+		  #sidenav_menu li{margin:0px;} 
+		    #sidenav_menu li:first-child{margin-top:30px;}
+			 #sidenav_menu  ul.social-in-menu li:first-child{margin-top:0px;}
+			 #section1 .intro,
+			 #section2 .intro{width:100%;margin-left:0px;text-align:center;}
+			 a.header-phone{width:22px;height:22px;overflow:hidden;}
+	.intro p {
+    width: 100% !important;padding:0px 35px;
+   
+}
+	  }*/
+		/*   @media only screen and  (max-width: 450px){
+			   .sidenav_toggle_total {
+    position: absolute;
+    top: 26px;
+    right: 24px;
+
+	}
+	#intro_slide-desc {
+    margin-top: 0px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'gagalinregular';
+}
+.intro_text.wrap-letters{font-size:20px !important;}
+.intro p {
+    width: 100% !important;padding:0px 35px;
+   
+}
+	}*/
+	
+/*	@media only screen and (max-width: 767px) and (min-width: 319px){
+				.box-left {
+
+   
+    margin: 0px 60px 0px 60px;
+}
+				}*/
