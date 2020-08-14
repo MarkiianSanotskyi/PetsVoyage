@@ -64,8 +64,6 @@ ul#menu li a{width:10px;height:10px;background-color:#002e3d;border-radius:50%;d
 ul#menu li a:hover{border:2px solid #fff;background-color:#fff;}
 ul#menu li.active a,
 ul#menu li.intro-active a{border:2px solid #fff;background:none;}
-ul#menu li.active.dark-link a,
-ul#menu li.active.dark-link span{color:#173744; border-color:#173744}
 ul#menu ul.menu-inner{margin:0px;padding:0px;position:relative;bottom:9px;}
 ul#menu ul.menu-inner li{margin-bottom:0px;margin-right:3px;display:inline-block;vertical-align:bottom;text-align:left;width:5px;height:10px;}
 ul#menu ul.menu-inner li a{border-radius:0px;display:block;width:100%;height:100%;border:none;transition: all  0.3s ease-in;-moz-transition: all  0.3s ease-in;-webkit-transition: all  0.3s ease-in;position:relative;}
@@ -657,7 +655,6 @@ ul#menu li.intro-active .menu-inner{display:inline-block;    margin: 0px 4px;}
 ul.our-partners-list{margin:0px;padding:0px;text-align:center;}
 ul.our-partners-list li{list-style:none;display:inline-block;vertical-align:top;height:46px;width:78px;margin:0px 15px;}
 ul.our-partners-list li a{display:block;background-image:url(../images/logo-partners-1.png);background-position: 50% 50%; background-repeat:no-repeat;background-size:72px 24px;width:100%;height:100%;}
-ul.our-partners-list li.first a{background-image:url(../images/ico-happy-paw-two.png);    background-size: 78px 46px;}
 ul.our-partners-list li.second a{background-image:url(../images/logo-partners-2.png);background-size:53px 46px;}
 ul.our-partners-list li.second a{background-image:url(../images/logo-partners-3.png);background-size:78px 30px;}
 
@@ -744,7 +741,7 @@ ul.how-we-works-list:after{content:"";display:block;background-image:url(../imag
     right: -67px;background-image:url(../images/bg-rout-2.png);background-position:top center;background-repeat:no-repeat;width:139px;height:358px;}
 	
 	ul.how-we-works-list li p{font-size:20px;color:#ffffff;font-family: 'sf_ui_displayregular';width:100%;}
-	a.view-more-documents{font-size:20px;color:#002e3d;text-decoration:underline;font-family: 'sf_ui_displaymedium';text-transform:uppercase;}
+	a.view-more-documents{font-size:10px;color:#002e3d;text-decoration:underline;font-family: 'sf_ui_displaymedium';text-transform:uppercase;}
 	a.view-more-documents:hover{text-decoration:none;}
 	
 .more-documents-box h3{font-size:24px;color:#fff;font-family: 'sf_ui_displaybold';    line-height: 30px;margin-bottom:30px;}	
@@ -886,8 +883,7 @@ animation-delay: 1s;
 
 #section5{background-image:url(../images/bg-total-6.jpg);background-size:cover;}
 	#section5 .title-img{width:122px;height:37px;background-image:url(../images/bg-title.png);background-position:top center;background-repeat:no-repeat;display:block;background-size:122px 37px;margin:0px auto 0px auto;margin-bottom:18px;}
-#section5	.good-box{font-size:26px;color:#ffffff;font-family: 'sf_ui_displaylight';       padding: 0px 50px;margin-bottom:50px;}
-#section5	.good-box span{display:block;font-size:39px;}
+#section5	.good-box{font-size:13px;color:#ffffff;font-family: 'sf_ui_displaylight';       padding: 0px 50px;margin-bottom:50px;}
 #section5	.good-box a{color:#173744;}
 #section5	.good-box a:hover{text-decoration:underline;}
 ul.good-box-list{margin:0px;padding:0px;display: -webkit-flex;
@@ -921,12 +917,11 @@ ul.good-box-list li .who-is{display:block;font-size:13px;color:#fff;font-family:
 ul.good-box-list li a.button.want-help{text-align:center;font-size:10px;text-transform:uppercase;color:#dab061;border:2px solid #dab061;    padding: 11px 36px 7px 36px;font-family: 'sf_ui_displaymedium';}
 ul.good-box-list li a.button.want-help:hover{background-color:#dab061;color:#181f2c;}
 ul.good-box-list li.about-happy-paw{background-color:#ffd400;height:380px;}
-ul.good-box-list li.about-happy-paw:hover .vertical-middle{text-decoration:underline;}
-ul.good-box-list li.about-happy-paw a{display:block;width:100px;height:49px;background-image:url(../images/ico-happy-paw-two-second.png);background-position:50% 25%;background-repeat:no-repeat;background-size:100px 49px;margin:0px auto;color:#3c1408;font-size:14px;font-family: 'sf_ui_displaylight'; }
+ul.good-box-list li.about-happy-paw a{display:block;width:77px;height:69px;background-image:url(../images/ico-happy-paw.png);background-position:50% 25%;background-repeat:no-repeat;background-size:77px 69px;margin:0px auto;color:#3c1408;font-size:14px;font-family: 'sf_ui_displaylight'; }
 a.ico-hend{position:relative;display:inline-block;vertical-align:top;width:27px;height:32px;background-image:url(../images/ico-hend.png);background-position:top center;background-repeat:no-repeat;background-size:27px 32px;}
 
 .who-you-help{padding:0px 10px;margin-top:15px;}
-.vertical-middle{display:inline-block;vertical-align:middle;    margin-top: 33%;}
+.vertical-middle{display:inline-block;vertical-align:middle;    margin-top: 25%;}
 a.ico-hend:before,
 a.ico-hend:after{content:"";display:block;width:5px;height:8px;position:absolute;cursor:pointer;left:-20px;top:50%;margin-top:-4px;background-image:url(../images/ico-arrow-left.png);background-position:top center;background-repeat:no-repeat;background-size:5px 8px;}
 a.ico-hend:after{background-image:url(../images/ico-arrow-right.png);left:inherit;right:-20px;}
@@ -1034,7 +1029,7 @@ transform:rotateY(0deg);
 
 .magazine-title{margin-bottom:50px;padding:0px 50px;}
 .magazine-title h5{font-size:38px;color:#fff;  font-family: 'sf_ui_displaybold';margin-bottom:14px;}
-.magazine-title span{font-size:26px;color:#fff;margin:0px;}
+.magazine-title span{font-size:13px;color:#fff;margin:0px;}
 
 .cell-info{text-align:center;margin-bottom:30px;}
 .dinamik-img{position:relative;width:50px;height:50px;margin-right:30px;    display: inline-block;
@@ -1061,7 +1056,7 @@ transform:rotateY(0deg);
 	.magazine-left-box .input-submit input[type="submit"] {background:none;border:2px solid #173744;font-size:10px;color:#173744;font-family: 'sf_ui_displaymedium';text-transform:uppercase;    padding: 11px 42px 7px 42px;}
 	.magazine-left-box .input-submit input[type="submit"]:hover{background-color:#173744;color:#fff;}
 	.magazine-left-box .input-submit {margin-bottom:35px;}
-	.input-magazine-info-box{width:237px;border:2px solid #fff;text-align:center;font-size:17px;color:#fff;font-family: 'sf_ui_displaybold';display:inline-block;vertical-align:top;padding:17px 5px;}
+	.input-magazine-info-box{width:237px;border:2px solid #fff;text-align:center;font-size:13px;color:#fff;font-family: 'sf_ui_displaylight';display:inline-block;vertical-align:top;padding:17px 5px;}
 	.input-magazine-info{text-align:center;font-size:0px;}
 	.input-magazine-info .input-magazine-info-box:last-child{border-left:0px;}
 	
